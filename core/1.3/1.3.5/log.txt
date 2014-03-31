@@ -1,0 +1,5 @@
+15:28:58: /Users/enrico/Desktop/zikula.po.temp.po:801:18: invalid control sequence
+15:28:58: /Applications/Poedit.app/Contents/MacOS/msgcat: found 1 fatal error
+15:28:58: Si è verificato un problema nella formattazione del file (ma è stato salvato correttamente)
+15:28:58: /Users/enrico/Desktop/zikula.po:801:18: invalid control sequence
+15:28:58: /Applications/Poedit.app/Contents/MacOS/msgfmt: found 1 fatal error

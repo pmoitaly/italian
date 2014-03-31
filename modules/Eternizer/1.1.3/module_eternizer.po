@@ -1,0 +1,1187 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Zikula 1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-27 07:03+0000\n"
+"PO-Revision-Date: 2013-08-06 22:35+0100\n"
+"Last-Translator: Enrico Bianchetti <bianchetti@webservice.brescia.it>\n"
+"Language-Team: Italian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: templates/plugins/function.eternizerSelectorObjectTypes.php:29
+#: lib/Eternizer/Api/Base/User.php:36 lib/Eternizer/Api/Base/Admin.php:36
+#: lib/Eternizer/Api/User.php:36 lib/Eternizer/Api/Admin.php:37
+#: templates/block/itemlist_modify.tpl:6
+msgid "Entries"
+msgstr "Messaggi"
+
+#: templates/plugins/function.eternizerSimplecaptcha.php:46
+#, fuzzy
+msgid "no image function available - captcha deactivated"
+msgstr "Nessuna funzione immagini -  captcha disattivato"
+
+#: templates/plugins/function.eternizerValidationError.php:36
+#, fuzzy
+msgid "This is a required field."
+msgstr "Questo campo è obbligatorio."
+
+#: templates/plugins/function.eternizerValidationError.php:37
+msgid "Please enter a valid number in this field."
+msgstr "Si prega di inserire un numero valido in questo campo."
+
+#: templates/plugins/function.eternizerValidationError.php:38
+msgid ""
+"Please use numbers only in this field. please avoid spaces or other "
+"characters such as dots or commas."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:39
+msgid "Please use letters only (a-z) in this field."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:40
+msgid ""
+"Please use only letters (a-z) or numbers (0-9) only in this field. No spaces "
+"or other characters are allowed."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:41
+msgid "Please enter a valid date."
+msgstr "Inserire una data valida"
+
+#: templates/plugins/function.eternizerValidationError.php:42
+msgid "Please enter a valid email address. For example yourname@example.com ."
+msgstr "Inserisci un indirizzo E-Mail corretto, ad esempio user@example.com"
+
+#: templates/plugins/function.eternizerValidationError.php:43
+msgid "Please enter a valid URL."
+msgstr "Inserire un indirizzo URL valido"
+
+#: templates/plugins/function.eternizerValidationError.php:44
+msgid ""
+"Please use this date format: dd/mm/yyyy. For example 17/03/2010 for the 17th "
+"of March, 2010."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:45
+msgid "Please enter a valid $ amount. For example $100.00 ."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:46
+#, fuzzy
+msgid "Please make a selection."
+msgstr "Inserire una data valida"
+
+#: templates/plugins/function.eternizerValidationError.php:47
+msgid "Please select one of the above options."
+msgstr "Si prega di selezionare una delle opzioni di cui sopra."
+
+#: templates/plugins/function.eternizerValidationError.php:50
+msgid "This value must not contain spaces."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:51
+msgid "Please select a valid html colour code."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:52
+#: templates/plugins/function.eternizerValidationError.php:54
+#: templates/plugins/function.eternizerValidationError.php:56
+msgid "Please select a value in the past."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:53
+#: templates/plugins/function.eternizerValidationError.php:55
+#: templates/plugins/function.eternizerValidationError.php:57
+msgid "Please select a value in the future."
+msgstr ""
+
+#: templates/plugins/function.eternizerValidationError.php:58
+msgid "This value is already assigned, but must be unique. Please change it."
+msgstr ""
+
+#: templates/plugins/function.eternizerSelectorTemplates.php:29
+#, fuzzy
+msgid "Newest Entries"
+msgstr "Prima i più recenti"
+
+#: lib/Eternizer/Form/Handler/Admin/Entry/Base/Edit.php:137
+#: lib/Eternizer/Form/Handler/User/Entry/Base/Edit.php:136
+msgid "Done! Entry created."
+msgstr "Fatto! messaggio creato."
+
+#: lib/Eternizer/Form/Handler/Admin/Entry/Base/Edit.php:140
+#: lib/Eternizer/Form/Handler/User/Entry/Base/Edit.php:139
+msgid "Done! Entry updated."
+msgstr "Fatto! messaggio aggiornato."
+
+#: lib/Eternizer/Form/Handler/Admin/Entry/Base/Edit.php:143
+#: lib/Eternizer/Form/Handler/User/Entry/Base/Edit.php:142
+msgid "Done! Entry deleted."
+msgstr "Fatto! messaggio eliminato."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:277
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:306
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:277
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:306
+#: lib/Eternizer/Controller/Base/User.php:225
+#: lib/Eternizer/Controller/Base/Admin.php:182
+#: lib/Eternizer/Controller/Base/Admin.php:263
+#, fuzzy
+msgid "No such item."
+msgstr "Nessun articolo trovato."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:539
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:539
+msgid "Done! Item created."
+msgstr "Fatto! Articolo creato."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:541
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:541
+#, fuzzy
+msgid "Error! Creation attempt failed."
+msgstr "Errore! Tentativo di creazione non riuscito di."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:546
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:546
+#: lib/Eternizer/Controller/Admin.php:143
+msgid "Done! Item updated."
+msgstr "Fatto! Articolo aggiornato."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:548
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:548
+#, fuzzy
+msgid "Error! Update attempt failed."
+msgstr "Errore! Tentativo di aggiornamento non riuscito."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:553
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:553
+#: lib/Eternizer/Controller/Base/Admin.php:273
+#: lib/Eternizer/Controller/Admin.php:141
+msgid "Done! Item deleted."
+msgstr "Fatto! Articolo eliminato."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Edit.php:555
+#: lib/Eternizer/Form/Handler/User/Base/Edit.php:555
+#, fuzzy
+msgid "Error! Deletion attempt failed."
+msgstr "Errore! Tentativo di eliminazione non riuscito."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Import.php:95
+msgid "Done! Import complete."
+msgstr "Fatto! Importazione completata."
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:48
+msgid "Descending"
+msgstr "ordinamento decrescente"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:49
+msgid "Ascending"
+msgstr "ordinamento crescente"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:53
+#, fuzzy
+msgid "Nothing"
+msgstr "Niente"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:54
+msgid "Guests"
+msgstr "Ospiti"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:55
+msgid "All"
+msgstr "Tutti"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:59
+msgid "Above"
+msgstr "Sopra"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:60
+#, fuzzy
+msgid "Below"
+msgstr "Individuato sotto:"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:61
+msgid "Menue"
+msgstr "Menu"
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:123
+msgid "Error! Failed to set configuration variables."
+msgstr ""
+
+#: lib/Eternizer/Form/Handler/Admin/Base/Config.php:126
+msgid "Done! Module configuration updated."
+msgstr "Fatto! La configurazione del modulo è aggiornata"
+
+#: lib/Eternizer/Form/Handler/User/Entry/Edit.php:37
+msgid "Sorry! The time to edit this entry is gone!"
+msgstr ""
+
+#: lib/Eternizer/Form/Handler/User/Entry/Edit.php:142
+#, fuzzy
+msgid "The calculation to prevent spam was incorrect. Please try again."
+msgstr ""
+"Il calcolo per prevenire lo spam non era corretto. Si prega di riprovare."
+
+#: lib/Eternizer/Form/Plugin/ColourInput.php:99
+msgid "Close"
+msgstr "Chiuso"
+
+#: lib/Eternizer/Form/Plugin/ColourInput.php:143
+#, fuzzy
+msgid "Error! Invalid colour."
+msgstr "Errore! Data invalida."
+
+#: lib/Eternizer/ContentType/Base/ItemList.php:38
+#: lib/Eternizer/Block/Base/ItemList.php:143
+msgid "Eternizer items"
+msgstr ""
+
+#: lib/Eternizer/ContentType/Base/ItemList.php:44
+msgid "Display Eternizer items."
+msgstr "Mostra voci"
+
+#: lib/Eternizer/Base/Installer.php:31 lib/Eternizer/Base/Installer.php:110
+#: lib/Eternizer/Installer.php:34 lib/Eternizer/Installer.php:91
+#, fuzzy
+msgid "Doctrine Exception: "
+msgstr "Stack trace:"
+
+#: lib/Eternizer/Base/Installer.php:33 lib/Eternizer/Installer.php:36
+#: lib/Eternizer/Installer.php:93
+#, php-format
+msgid "An error was encountered while creating the tables for the %s module."
+msgstr ""
+
+#: lib/Eternizer/Base/Installer.php:103
+#, php-format
+msgid ""
+"An error was encountered while removing stored object workflows for the %s "
+"module."
+msgstr ""
+
+#: lib/Eternizer/Base/Installer.php:112
+#, php-format
+msgid "An error was encountered while dropping the tables for the %s module."
+msgstr ""
+
+#: lib/Eternizer/Base/Version.php:25 lib/Eternizer/Version.php:25
+#: templates/user/header.tpl:11
+msgid "Eternizer"
+msgstr "Libro degli Ospiti"
+
+#: lib/Eternizer/Base/Version.php:27 lib/Eternizer/Version.php:27
+msgid "Eternizer - A guestbook module"
+msgstr "Eternizer - A guestbook module"
+
+#. ! url version of name, should be in lowercase without space
+#: lib/Eternizer/Base/Version.php:29 lib/Eternizer/Version.php:29
+msgid "eternizer"
+msgstr "libro degli ospiti"
+
+#: lib/Eternizer/Base/Version.php:64
+msgid "eternizer Entries Display Hooks"
+msgstr ""
+
+#: lib/Eternizer/Base/Version.php:81
+msgid "eternizer Entries Filter Hooks"
+msgstr ""
+
+#: lib/Eternizer/Block/Base/ItemList.php:37
+msgid ""
+"Notice: This block will not be displayed until you activate the Eternizer "
+"module."
+msgstr ""
+
+#: lib/Eternizer/Block/Base/ItemList.php:41
+#, fuzzy
+msgid "Item list"
+msgstr "Elenco di selezione"
+
+#: lib/Eternizer/Block/Base/ItemList.php:42
+msgid "Show a list of Eternizer items based on different criteria."
+msgstr ""
+
+#: lib/Eternizer/Installer.php:146
+#, fuzzy
+msgid ""
+"The installer could not create eternizer_cache/index.html and/or "
+"eternizer_cache/.htaccess, please refer to the manual before using the "
+"module!"
+msgstr ""
+"L'installer non è riuscito a creare formicula_cache/index.html e/o "
+"formicula_cache/.htaccess, consulta il manuale prima di utilizzare il modulo!"
+
+#: lib/Eternizer/Installer.php:148
+#, fuzzy
+msgid ""
+"The installer successfully created the eternizer_cache directory in Zikula's "
+"temporary directory with a .htaccess file for security in there."
+msgstr ""
+"Il programma di installazione ha creato la directory formicula_cache nella "
+"directory temporanea di Zikula con un file . htaccess per la sicurezza."
+
+#: lib/Eternizer/Installer.php:151
+#, fuzzy
+msgid ""
+"The installer could not create the eternizer_cache directory, please refer "
+"to the manual before using the module!"
+msgstr ""
+"L'installer non è riuscito a creare la cartella formicula_cache, consulta il "
+"manuale prima di utilizzare il modulo!"
+
+#: lib/Eternizer/Installer.php:155
+#, fuzzy
+msgid ""
+"The directory 'ztemp' found outside of the webroot, please consult the "
+"manual of how to create the eternizer_cache directory in this case."
+msgstr ""
+"La cartella zTemp non è nella webroot, consulta il manuale su come creare la "
+"cartella formicula_cache"
+
+#: lib/Eternizer/Util/Base/Settings.php:72
+msgid "New Entry in Guestbook on "
+msgstr "New Messaggio in Guestbook su "
+
+#: lib/Eternizer/Util/Base/Settings.php:73
+msgid "Another entry was created by an user on "
+msgstr ""
+
+#: lib/Eternizer/Util/Base/Settings.php:74 templates/admin/view.tpl:56
+#: templates/admin/entry/display.tpl:37 templates/admin/entry/view.tpl:64
+#: templates/admin/entry/edit.tpl:53 templates/admin/entry/view.csv:3
+#: templates/user/entry/display.tpl:35 templates/user/entry/edit.tpl:49
+#: templates/user/entry/view.csv:3
+msgid "Text"
+msgstr "Testo"
+
+#: lib/Eternizer/Util/Base/Settings.php:74
+msgid "Visit our guestbook:"
+msgstr "Visita il nostro libro degli ospiti:"
+
+#: lib/Eternizer/Util/Base/Settings.php:75
+msgid "Moderate this entry:"
+msgstr "Modera questo messaggio"
+
+#: lib/Eternizer/Util/Base/Settings.php:84
+msgid "Unable to send message"
+msgstr "Impossibile inviare messaggio"
+
+#: lib/Eternizer/Util/Base/Settings.php:89
+#, fuzzy
+msgid "Your entry was published!"
+msgstr "Il tuo voto è stato registrato."
+
+#: lib/Eternizer/Util/Base/Settings.php:94
+#: lib/Eternizer/Util/Base/Settings.php:99
+msgid "Your entry was saved and must be confirmed by our team"
+msgstr ""
+"Il tuo articolo è stato salvato, prima di pubblicarlo sarà moderato dal "
+"nostro staff. Grazie"
+
+#: lib/Eternizer/Util/View.php:55
+msgid "You have permissions to edit this issue!"
+msgstr ""
+
+#: lib/Eternizer/Util/Controller.php:45
+msgid "accepted and published"
+msgstr "accetta e pubblica"
+
+#: lib/Eternizer/Util/Controller.php:46 templates/admin/view.tpl:107
+#: templates/admin/entry/view.tpl:118
+msgid "to moderate"
+msgstr "da moderare"
+
+#: lib/Eternizer/Util/Controller.php:47 templates/admin/view.tpl:109
+#: templates/admin/entry/view.tpl:120
+msgid "denied"
+msgstr "Accesso negato"
+
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:34
+#, php-format
+msgid "Error! Field value may only contain digits (%s)."
+msgstr ""
+
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:38
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:42
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:46
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:50
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:54
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:62
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:66
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:74
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:78
+#, php-format
+msgid "Error! Length of field value must not be higher than %2$s (%1$s)."
+msgstr ""
+
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:58
+#, php-format
+msgid "Error! Field value must be a valid url (%s)."
+msgstr ""
+
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:70
+#: lib/Eternizer/Entity/Validator/Base/Entry.php:82
+#, php-format
+msgid "Error! Field value must not be empty (%s)."
+msgstr ""
+
+#: lib/Eternizer/Entity/Entry.php:49 lib/Eternizer/Entity/Entry.php:50
+#: lib/Eternizer/Entity/Entry.php:71 lib/Eternizer/Entity/Entry.php:72
+#: lib/Eternizer/Entity/Base/Entry.php:654
+#: lib/Eternizer/Entity/Base/Entry.php:655
+#: lib/Eternizer/Entity/Base/Entry.php:698
+#: lib/Eternizer/Entity/Base/Entry.php:699
+msgid "Edit"
+msgstr "Modifica"
+
+#: lib/Eternizer/Entity/Entry.php:57 lib/Eternizer/Entity/Entry.php:58
+#: lib/Eternizer/Entity/Base/Entry.php:668
+#: lib/Eternizer/Entity/Base/Entry.php:669 templates/admin/entry/view.tpl:148
+#: templates/admin/entry/delete.tpl:7 templates/admin/entry/delete.tpl:20
+msgid "Delete"
+msgstr "Elimina"
+
+#: lib/Eternizer/Entity/Base/Entry.php:637
+msgid "Open preview page"
+msgstr "Apri pagina anteprima"
+
+#: lib/Eternizer/Entity/Base/Entry.php:638
+msgid "Preview"
+msgstr "Anteprima"
+
+#: lib/Eternizer/Entity/Base/Entry.php:644
+#: lib/Eternizer/Entity/Base/Entry.php:688 templates/admin/entry/display.tpl:8
+msgid "Details"
+msgstr "Dettagli"
+
+#: lib/Eternizer/Entity/Base/Entry.php:660
+#: lib/Eternizer/Entity/Base/Entry.php:704
+msgid "Reuse for new item"
+msgstr "Riutilizzare per nuovo elemento"
+
+#: lib/Eternizer/Entity/Base/Entry.php:661
+#: lib/Eternizer/Entity/Base/Entry.php:705
+msgid "Reuse"
+msgstr ""
+
+#: lib/Eternizer/Entity/Base/Entry.php:677
+#: lib/Eternizer/Entity/Base/Entry.php:678
+#: lib/Eternizer/Entity/Base/Entry.php:713
+#: lib/Eternizer/Entity/Base/Entry.php:714
+#, fuzzy
+msgid "Back to overview"
+msgstr "Torna al modulo di contatto"
+
+#: lib/Eternizer/Api/Base/Mailz.php:31
+msgid "3 newest entries"
+msgstr "ultime 3 voci"
+
+#: lib/Eternizer/Api/Base/Mailz.php:32
+msgid "A list of the three newest entries."
+msgstr ""
+
+#: lib/Eternizer/Api/Base/Mailz.php:37
+msgid "3 random entries"
+msgstr "3 voci a caso"
+
+#: lib/Eternizer/Api/Base/Mailz.php:38
+msgid "A list of three random entries."
+msgstr ""
+
+#: lib/Eternizer/Api/Base/User.php:30 lib/Eternizer/Api/User.php:30
+msgid "Backend"
+msgstr "Backend"
+
+#: lib/Eternizer/Api/Base/User.php:31 lib/Eternizer/Api/User.php:31
+#, fuzzy
+msgid "Switch to administration area."
+msgstr "Torna alla pagina di provenienza"
+
+#: lib/Eternizer/Api/Base/User.php:37 lib/Eternizer/Api/Base/Admin.php:37
+#: lib/Eternizer/Api/User.php:37 lib/Eternizer/Api/Admin.php:38
+#: templates/admin/view.tpl:4 templates/admin/entry/view.tpl:9
+#: templates/user/entry/view.tpl:4
+msgid "Entry list"
+msgstr "Lista messaggi"
+
+#: lib/Eternizer/Api/Base/Admin.php:30 lib/Eternizer/Api/Admin.php:31
+msgid "Frontend"
+msgstr ""
+
+#: lib/Eternizer/Api/Base/Admin.php:31 lib/Eternizer/Api/Admin.php:32
+#, fuzzy
+msgid "Switch to user area."
+msgstr "Mostra un messaggio all'utente"
+
+#: lib/Eternizer/Api/Base/Admin.php:41 lib/Eternizer/Api/Admin.php:47
+msgid "Configuration"
+msgstr "Configurazione"
+
+#: lib/Eternizer/Api/Base/Admin.php:42 lib/Eternizer/Api/Admin.php:48
+msgid "Manage settings for this application"
+msgstr ""
+
+#: lib/Eternizer/Api/User.php:43
+msgid "My Entries"
+msgstr "Miei Messaggi"
+
+#: lib/Eternizer/Api/User.php:44
+msgid "View of my entries"
+msgstr "Mostra i miei messaggi"
+
+#: lib/Eternizer/Api/User.php:51
+msgid "New Entry"
+msgstr "Nuovo Messaggio"
+
+#: lib/Eternizer/Api/User.php:52
+msgid "Make a new entry"
+msgstr "Crea un nuovo messaggio"
+
+#: lib/Eternizer/Api/Import.php:139
+msgid "Done! Import successful."
+msgstr "Fatto! Importazione riuscita."
+
+#: lib/Eternizer/Api/Admin.php:42 templates/admin/import.tpl:4
+msgid "Import"
+msgstr "Importa"
+
+#: lib/Eternizer/Api/Admin.php:43
+msgid "Import old entries and attributes"
+msgstr ""
+
+#: lib/Eternizer/Api/Admin.php:76
+msgid "Connection to database failed"
+msgstr "Connessione al database fallita"
+
+#: lib/Eternizer/Api/Admin.php:90
+msgid "Sorry! No old table or the table is empty."
+msgstr ""
+
+#: lib/Eternizer/Api/Admin.php:197
+#, fuzzy
+msgid "Writing datas failed"
+msgstr "Aggiornamento database fallito"
+
+#: lib/Eternizer/Api/Admin.php:227
+#, fuzzy
+msgid "No connection to database"
+msgstr "Connessione al database fallita"
+
+#: lib/Eternizer/Controller/Base/User.php:222
+#: lib/Eternizer/Controller/Base/Admin.php:179
+#: lib/Eternizer/Controller/Base/Admin.php:260
+#, fuzzy
+msgid "Error! Invalid identifier received."
+msgstr "Errore in %1$s: il parametro %2$s non è valido."
+
+#: lib/Eternizer/Controller/User.php:107
+#, fuzzy
+msgid "Sorry. The editing of entries is disabled."
+msgstr "Spiacenti! Al momento la registrazione di nuovi account è disattivata."
+
+#: lib/Eternizer/Controller/Admin.php:133
+#, php-format
+msgid ""
+"Sorry, but an unknown error occured during the %s action. Please apply the "
+"changes again!"
+msgstr ""
+
+#: templates/admin/config.tpl:6 templates/admin/config.tpl:9
+#: templates/admin/import.tpl:7
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: templates/admin/config.tpl:17
+msgid "Here you can manage all basic settings for this application."
+msgstr ""
+
+#: templates/admin/config.tpl:19
+msgid "Items per page"
+msgstr "Articoli per pagina"
+
+#: templates/admin/config.tpl:20 templates/admin/config.tpl:51
+msgid "Enter this setting. Only digits are allowed."
+msgstr ""
+
+#: templates/admin/config.tpl:23
+msgid "Mail"
+msgstr "E-Mail"
+
+#: templates/admin/config.tpl:24
+#, fuzzy
+msgid "Enter this setting."
+msgstr "Nascondi questo messaggio"
+
+#: templates/admin/config.tpl:25
+msgid ""
+"Notice: If you enter a correct email address a message will be sent to when "
+"a new entry was saved. If you leave this field empty, it is disabled."
+msgstr ""
+"Avviso: Se si immette un indirizzo email corretto il messaggio verrà inviato "
+"ad ogni nuovo messaggio inserito. Se si lascia vuoto questo campo, è "
+"disabilitato."
+
+#: templates/admin/config.tpl:28
+msgid "Order"
+msgstr "Ordinamento"
+
+#: templates/admin/config.tpl:30
+msgid ""
+"Notice: Here you enter the standard order in backend and frontend. In "
+"backend you are able to sort the columns over using the links."
+msgstr ""
+"Avviso: Qui si inserisce l'ordine standard di backend e di frontend. Nel "
+"back-end si è in grado di ordinare le colonne sopra usando i link."
+
+#: templates/admin/config.tpl:33
+msgid "Moderate"
+msgstr "Moderazione"
+
+#: templates/admin/config.tpl:37
+msgid "Formposition"
+msgstr ""
+
+#: templates/admin/config.tpl:41
+msgid "Save Ip?"
+msgstr "Salva IP"
+
+#: templates/admin/config.tpl:45
+msgid "Edit own entries?"
+msgstr "Modifica i propri messaggi?"
+
+#: templates/admin/config.tpl:50
+#, fuzzy
+msgid "Period"
+msgstr "Fine del Periodo di affitto"
+
+#: templates/admin/config.tpl:55
+msgid "Use simple captcha?"
+msgstr "Usa semplice captcha?"
+
+#: templates/admin/config.tpl:61
+msgid "Update configuration"
+msgstr "Aggiorna Configurazione"
+
+#: templates/admin/config.tpl:62 templates/admin/import.tpl:58
+#: templates/admin/entry/edit.tpl:114 templates/admin/entry/delete.tpl:22
+#: templates/user/entry/edit.tpl:107
+msgid "Cancel"
+msgstr "Cancella"
+
+#: templates/admin/include_standardfields_edit.tpl:4
+#: templates/admin/include_standardfields_display.tpl:3
+#: templates/user/include_standardfields_edit.tpl:4
+#: templates/user/include_standardfields_display.tpl:3
+#, fuzzy
+msgid "Creation and update"
+msgstr "Stato aggiornamento di moduli e temi"
+
+#: templates/admin/include_standardfields_edit.tpl:8
+#: templates/user/include_standardfields_edit.tpl:8
+#, php-format
+msgid "Created by %s"
+msgstr "Creato da %s."
+
+#: templates/admin/include_standardfields_edit.tpl:9
+#: templates/user/include_standardfields_edit.tpl:9
+#, php-format
+msgid "Created on %s"
+msgstr "Creato il %s"
+
+#: templates/admin/include_standardfields_edit.tpl:13
+#: templates/user/include_standardfields_edit.tpl:13
+#, php-format
+msgid "Updated by %s"
+msgstr "Aggiornato da %s"
+
+#: templates/admin/include_standardfields_edit.tpl:14
+#: templates/user/include_standardfields_edit.tpl:14
+#: templates/user/entry/view.tpl:98
+#, php-format
+msgid "Updated on %s"
+msgstr "Aggiornato il %s."
+
+#: templates/admin/import.tpl:14
+msgid ""
+"Warning: Don' forget to make a backup of your database before using this "
+"import form!"
+msgstr ""
+
+#: templates/admin/import.tpl:15
+msgid ""
+"Notice: With this form you are able to move your old entries into the new "
+"table. You can get the attributes 'name', 'email, 'homepage' and 'location' "
+"from the objectdata_attributes table for the entries if saved there. You can "
+"delete the old table. And you can delete the entries for Eternizer in the "
+"table objectdata_attributes."
+msgstr ""
+
+#: templates/admin/import.tpl:16
+msgid "Here you can manage all basic settings for the import."
+msgstr ""
+
+#: templates/admin/import.tpl:18
+msgid ""
+"Notice: For import of attributes look in the table objectdata_attributes for "
+"entries where object_type is 'Eternizer_entry'!"
+msgstr ""
+
+#: templates/admin/import.tpl:20
+msgid "-> Name"
+msgstr "-> Nome"
+
+#: templates/admin/import.tpl:21 templates/admin/import.tpl:26
+#: templates/admin/import.tpl:31 templates/admin/import.tpl:36
+#, fuzzy
+msgid "Enter the correct attribute name."
+msgstr "Inserisci il tuo nome"
+
+#: templates/admin/import.tpl:22
+msgid ""
+"Notice: Enter the attribute name for the name in the table "
+"objectdata_attributes. For example: 0"
+msgstr ""
+
+#: templates/admin/import.tpl:25
+msgid "-> Email"
+msgstr "-> Email"
+
+#: templates/admin/import.tpl:27
+msgid ""
+"Notice: Enter the attribute name for the email in the table "
+"objectdata_attributes. For example: 1"
+msgstr ""
+
+#: templates/admin/import.tpl:30
+msgid "-> Homepage"
+msgstr "-> Homepage"
+
+#: templates/admin/import.tpl:32
+msgid ""
+"Notice: Enter the attribute name for the homepage in the table "
+"objectdata_attributes. For example: 2"
+msgstr ""
+
+#: templates/admin/import.tpl:35
+msgid "-> Location"
+msgstr "-> Località"
+
+#: templates/admin/import.tpl:37
+msgid ""
+"Notice: Enter the attribute name for the location in the table "
+"objectdata_attributes. For example: 3"
+msgstr ""
+
+#: templates/admin/import.tpl:40
+#, fuzzy
+msgid "Import attributes?"
+msgstr "Importa OPML"
+
+#: templates/admin/import.tpl:43
+msgid ""
+"Notice: If you check here, also the attributes for the entries will be "
+"imported into the new module table."
+msgstr ""
+
+#: templates/admin/import.tpl:45
+msgid "Delete old table?"
+msgstr "Elimina vecchie tabelle?"
+
+#: templates/admin/import.tpl:48
+msgid ""
+"Notice: If you check here, also the old table of Eternizer will be deleted."
+msgstr ""
+
+#: templates/admin/import.tpl:50
+msgid "Delete entries in table objectdata_attributes?"
+msgstr ""
+
+#: templates/admin/import.tpl:53
+msgid ""
+"Notice: If you check here, also the entries of Eternizer in the table "
+"objectdata_attributes will be deleted."
+msgstr ""
+
+#: templates/admin/import.tpl:57
+msgid "Start import"
+msgstr "Inizia importazione"
+
+#: templates/admin/view.tpl:13 templates/admin/entry/view.tpl:18
+#: templates/user/entry/view.tpl:10
+msgid "Back to paginated view"
+msgstr "Torna alla pagina iniziale"
+
+#: templates/admin/view.tpl:19 templates/admin/entry/view.tpl:24
+#: templates/user/entry/view.tpl:13
+msgid "Show all entries"
+msgstr "Mostra tutti i messaggi"
+
+#: templates/admin/view.tpl:41 templates/admin/entry/view.tpl:49
+#: templates/admin/entry/edit.tpl:30 templates/admin/entry/view.csv:3
+#: templates/user/entry/edit.tpl:26 templates/user/entry/view.csv:3
+msgid "Ip"
+msgstr "IP"
+
+#: templates/admin/view.tpl:44 templates/admin/entry/display.tpl:13
+#: templates/admin/entry/view.tpl:52 templates/admin/entry/edit.tpl:34
+#: templates/admin/entry/view.csv:3 templates/user/entry/display.tpl:11
+#: templates/user/entry/edit.tpl:30 templates/user/entry/view.csv:3
+msgid "Name"
+msgstr "Nome"
+
+#: templates/admin/view.tpl:47 templates/admin/view.tpl:82
+#: templates/admin/entry/display.tpl:15 templates/admin/entry/display.tpl:18
+#: templates/admin/entry/view.tpl:55 templates/admin/entry/view.tpl:93
+#: templates/admin/entry/edit.tpl:38 templates/admin/entry/view.csv:3
+#: templates/user/entry/display.tpl:13 templates/user/entry/display.tpl:16
+#: templates/user/entry/view.tpl:32 templates/user/entry/view.tpl:34
+#: templates/user/entry/edit.tpl:34 templates/user/entry/view.csv:3
+msgid "Email"
+msgstr "Email"
+
+#: templates/admin/view.tpl:50 templates/admin/view.tpl:89
+#: templates/admin/entry/display.tpl:23 templates/admin/entry/display.tpl:27
+#: templates/admin/entry/view.tpl:58 templates/admin/entry/view.tpl:100
+#: templates/admin/entry/edit.tpl:43 templates/admin/entry/view.csv:3
+#: templates/user/entry/display.tpl:21 templates/user/entry/display.tpl:25
+#: templates/user/entry/view.tpl:38 templates/user/entry/view.tpl:40
+#: templates/user/entry/edit.tpl:40 templates/user/entry/view.csv:3
+msgid "Homepage"
+msgstr "Homepage"
+
+#: templates/admin/view.tpl:53 templates/admin/entry/display.tpl:35
+#: templates/admin/entry/view.tpl:61 templates/admin/entry/edit.tpl:48
+#: templates/admin/entry/view.csv:3 templates/user/entry/display.tpl:33
+#: templates/user/entry/view.tpl:44 templates/user/entry/edit.tpl:45
+#: templates/user/entry/view.csv:3
+msgid "Location"
+msgstr "Località"
+
+#: templates/admin/view.tpl:59 templates/admin/entry/display.tpl:39
+#: templates/admin/entry/view.tpl:67 templates/admin/entry/edit.tpl:58
+#: templates/admin/entry/view.csv:3 templates/user/entry/display.tpl:37
+#: templates/user/entry/view.csv:3
+msgid "Notes"
+msgstr "Note:"
+
+#: templates/admin/view.tpl:62 templates/admin/entry/display.tpl:41
+#: templates/admin/entry/view.tpl:70 templates/admin/entry/edit.tpl:62
+#: templates/user/entry/display.tpl:39
+msgid "Status"
+msgstr "Stato"
+
+#: templates/admin/view.tpl:65 templates/admin/entry/view.tpl:73
+msgid "Created Date"
+msgstr "Data di creazione"
+
+#: templates/admin/view.tpl:67 templates/admin/entry/view.tpl:75
+msgid "Actions"
+msgstr "Azioni"
+
+#: templates/admin/view.tpl:82 templates/admin/entry/display.tpl:18
+#: templates/admin/entry/view.tpl:93 templates/user/entry/display.tpl:16
+#: templates/user/entry/view.tpl:34
+msgid "Send an email"
+msgstr "Invia una email"
+
+#: templates/admin/view.tpl:89 templates/admin/entry/display.tpl:27
+#: templates/admin/entry/view.tpl:100 templates/user/entry/display.tpl:25
+#: templates/user/entry/view.tpl:40
+msgid "Visit this page"
+msgstr "Visita questa pagina"
+
+#: templates/admin/view.tpl:105 templates/admin/entry/view.tpl:116
+msgid "confirmed"
+msgstr ""
+
+#: templates/admin/view.tpl:124 templates/admin/entry/view.tpl:135
+#, fuzzy
+msgid "No entries found"
+msgstr "Articoli non trovati."
+
+#: templates/admin/entry/display.tpl:4 templates/user/entry/display.tpl:4
+msgid "Entry"
+msgstr "Messaggio"
+
+#: templates/admin/entry/view.rss:11 templates/admin/entry/view.atom:4
+#: templates/user/entry/view.rss:11 templates/user/entry/view.atom:4
+msgid "Latest entries"
+msgstr "Ultimi messaggi"
+
+#: templates/admin/entry/view.rss:12 templates/admin/entry/view.atom:5
+#: templates/user/entry/view.rss:12 templates/user/entry/view.atom:5
+msgid "A direct feed showing the list of entries"
+msgstr ""
+
+#: templates/admin/entry/include_displayItemListMany.tpl:8
+#: templates/admin/entry/include_displayItemListOne.tpl:4
+#: templates/user/entry/include_displayItemListMany.tpl:7
+#: templates/user/entry/include_displayItemListOne.tpl:4
+msgid "Open quick view window"
+msgstr ""
+
+#: templates/admin/entry/include_displayItemListMany.tpl:8
+#: templates/admin/entry/include_displayItemListOne.tpl:4
+#: templates/user/entry/include_displayItemListMany.tpl:7
+#: templates/user/entry/include_displayItemListOne.tpl:4
+msgid "Quick view"
+msgstr "Vista veloce"
+
+#: templates/admin/entry/view.tpl:143
+msgid "Selected entries"
+msgstr "Seleziona messaggio"
+
+#: templates/admin/entry/view.tpl:145
+msgid "Choose action"
+msgstr "Scegli un azione"
+
+#: templates/admin/entry/view.tpl:146
+msgid "Accept"
+msgstr "Accetta"
+
+#: templates/admin/entry/view.tpl:147
+msgid "Deny"
+msgstr "Nega"
+
+#: templates/admin/entry/view.tpl:150
+msgid "Submit"
+msgstr "Invia"
+
+#: templates/admin/entry/edit.tpl:7 templates/admin/entry/edit.tpl:13
+#: templates/user/entry/edit.tpl:9 templates/user/entry/edit.tpl:13
+msgid "Edit entry"
+msgstr "Modifica messaggio"
+
+#: templates/admin/entry/edit.tpl:10 templates/admin/entry/edit.tpl:110
+#: templates/user/entry/edit.tpl:11 templates/user/entry/edit.tpl:103
+msgid "Create entry"
+msgstr "Crea nuovo messaggio"
+
+#: templates/admin/entry/edit.tpl:28 templates/user/entry/edit.tpl:24
+msgid "Content"
+msgstr "Contenuto"
+
+#: templates/admin/entry/edit.tpl:31
+#, fuzzy
+msgid "Enter the ip of the entry"
+msgstr "Inserire un indirizzo IP valido."
+
+#: templates/admin/entry/edit.tpl:35 templates/user/entry/edit.tpl:31
+#, fuzzy
+msgid "Enter the name of the entry"
+msgstr "Inserisci il tuo nome"
+
+#: templates/admin/entry/edit.tpl:39 templates/user/entry/edit.tpl:35
+#, fuzzy
+msgid "Enter the email of the entry"
+msgstr "Inserisci il tuo indirizzo email"
+
+#: templates/admin/entry/edit.tpl:44 templates/user/entry/edit.tpl:41
+#, fuzzy
+msgid "Enter the homepage of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/admin/entry/edit.tpl:49 templates/user/entry/edit.tpl:46
+#, fuzzy
+msgid "Enter the location of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/admin/entry/edit.tpl:54
+#, fuzzy
+msgid "Enter the text of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/admin/entry/edit.tpl:59
+#, fuzzy
+msgid "Enter the notes of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/admin/entry/edit.tpl:63
+msgid "Enter the obj_status of the entry"
+msgstr ""
+
+#: templates/admin/entry/edit.tpl:81 templates/user/entry/edit.tpl:74
+msgid "Hooks"
+msgstr "Hooks"
+
+#: templates/admin/entry/edit.tpl:93 templates/user/entry/edit.tpl:86
+#, fuzzy
+msgid "Return control"
+msgstr "Ritorna all'elenco"
+
+#: templates/admin/entry/edit.tpl:95 templates/user/entry/edit.tpl:88
+msgid "Create another item after save"
+msgstr ""
+
+#: templates/admin/entry/edit.tpl:104 templates/user/entry/edit.tpl:97
+#, fuzzy
+msgid "Update entry"
+msgstr "Data inserimento"
+
+#: templates/admin/entry/edit.tpl:106 templates/user/entry/edit.tpl:99
+#, fuzzy
+msgid "Really delete this entry?"
+msgstr "per eliminare questa Sottoscrizione"
+
+#: templates/admin/entry/edit.tpl:107 templates/admin/entry/delete.tpl:4
+#: templates/user/entry/edit.tpl:100
+msgid "Delete entry"
+msgstr "Elimina messaggio"
+
+#: templates/admin/entry/edit.tpl:112 templates/user/entry/edit.tpl:105
+msgid "OK"
+msgstr "OK"
+
+#: templates/admin/entry/view.csv:3 templates/user/entry/view.csv:3
+#, fuzzy
+msgid "Obj_status"
+msgstr "Resoconto sullo stato"
+
+#: templates/admin/entry/delete.tpl:11
+msgid "Do you really want to delete this entry ?"
+msgstr "Sei sicuro di voler eliminare questo messaggio?"
+
+#: templates/admin/entry/delete.tpl:18
+msgid "Confirmation prompt"
+msgstr "Richiesta di conferma"
+
+#: templates/admin/include_standardfields_display.tpl:6
+#: templates/user/include_standardfields_display.tpl:6
+msgid "Creation"
+msgstr ""
+
+#: templates/admin/include_standardfields_display.tpl:17
+#: templates/user/include_standardfields_display.tpl:17
+#, php-format
+msgid "Created by %1$s on %2$s"
+msgstr "Creato da %1$s il %2$s"
+
+#: templates/admin/include_standardfields_display.tpl:20
+#: templates/user/include_standardfields_display.tpl:20
+msgid "Last update"
+msgstr "Ultimo aggiornamento"
+
+#: templates/admin/include_standardfields_display.tpl:31
+#: templates/user/include_standardfields_display.tpl:31
+#, php-format
+msgid "Updated by %1$s on %2$s"
+msgstr "Aggiornato da %1$s il %2$s"
+
+#: templates/contenttype/itemlist_Entry_display.tpl:12
+msgid "Visit our guestbook"
+msgstr "Guarda gli altri messaggi"
+
+#: templates/contenttype/itemlist_Entry_display_description.tpl:8
+msgid "Read more"
+msgstr "leggi tutto"
+
+#: templates/contenttype/itemlist_Entry_display_description.tpl:10
+#: templates/user/entry/view.tpl:105
+#: templates/mailz/itemlist_Entry_html.tpl:10
+#: templates/mailz/itemlist_Entry_text.tpl:7
+#, fuzzy
+msgid "No entries found."
+msgstr "Articoli non trovati."
+
+#: templates/contenttype/itemlist_edit.tpl:4
+#: templates/block/itemlist_modify.tpl:4
+#, fuzzy
+msgid "Object type"
+msgstr "Tipo di veicolo"
+
+#: templates/contenttype/itemlist_edit.tpl:10
+#: templates/block/itemlist_modify.tpl:11
+msgid "Sorting"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:13
+#: templates/block/itemlist_modify.tpl:13
+msgid "Random"
+msgstr "Random"
+
+#: templates/contenttype/itemlist_edit.tpl:15
+#: templates/block/itemlist_modify.tpl:14
+msgid "Newest"
+msgstr "Novità"
+
+#: templates/contenttype/itemlist_edit.tpl:17
+#: templates/block/itemlist_modify.tpl:15
+msgid "Default"
+msgstr "Predefinito"
+
+#: templates/contenttype/itemlist_edit.tpl:22
+#: templates/block/itemlist_modify.tpl:20
+msgid "Amount"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:27
+#: templates/block/itemlist_modify.tpl:25
+#, fuzzy
+msgid "Template File"
+msgstr "File del template"
+
+#: templates/contenttype/itemlist_edit.tpl:33
+#: templates/block/itemlist_modify.tpl:33
+#, fuzzy
+msgid "Filter (expert option)"
+msgstr "F.A.Q. filter Hooks"
+
+#: templates/contenttype/itemlist_edit.tpl:35
+#: templates/block/itemlist_modify.tpl:35
+msgid "Syntax examples"
+msgstr ""
+
+#: templates/contenttype/itemlist_edit.tpl:35
+#: templates/block/itemlist_modify.tpl:35
+msgid "or"
+msgstr "o"
+
+#: templates/user/entry/view.tpl:69
+#, php-format
+msgid "on %s"
+msgstr "il %s"
+
+#: templates/user/entry/view.tpl:90
+msgid "Comment:"
+msgstr "Commento:"
+
+#: templates/user/entry/edit.tpl:27
+#, fuzzy
+msgid "Input the ip of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/user/entry/edit.tpl:37
+msgid "Notice: The entered email address will be displayed"
+msgstr "Avviso: verrà visualizzato l'indirizzo e-mail inserito"
+
+#: templates/user/entry/edit.tpl:50
+#, fuzzy
+msgid "Input the text of the entry"
+msgstr "Punto d'ingresso"
+
+#: templates/user/entry/edit.tpl:55
+msgid "Please solve this calculation"
+msgstr "Risolvi questo calcolo matematico"
+
+#: templates/user/entry/edit.tpl:59
+msgid "(to prevent spam)"
+msgstr "(per evitare la spam)"
+
+#: templates/block/itemlist_modify.tpl:27
+msgid "Only item titles"
+msgstr "Solo titoli"
+
+#: templates/block/itemlist_modify.tpl:28
+#, fuzzy
+msgid "With description"
+msgstr "Descrizione del feed"
